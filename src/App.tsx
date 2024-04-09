@@ -22,10 +22,7 @@ function App() {
         <label htmlFor="date">Enter your date of birth: </label>
         <input type="date" id="date" required />
         <button>Submit</button>
-        <p>
-          You are {age.years} years, {age.months} months, and {age.days} days
-          old.
-        </p>
+        <p>You are {age.years * 12 + age.months} months old.</p>
       </form>
     </>
   );
